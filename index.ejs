@@ -1,0 +1,13 @@
+import ololog from "ololog";
+
+const Logger = ololog.configure({
+  tag: true,
+  time: {
+    yes: true,
+    format: "iso",
+    print: (date) =>
+      `${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}.${date.getMilliseconds()}`,
+  },
+});
+
+Logger.info("Hello World!")

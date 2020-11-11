@@ -1,0 +1,19 @@
+{
+  "name": "ololog_bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c --environment production"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ololog": "^1.1.164"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^16.0.0",
+    "@rollup/plugin-node-resolve": "^10.0.0",
+    "rollup": "^2.33.1"
+  }
+}
